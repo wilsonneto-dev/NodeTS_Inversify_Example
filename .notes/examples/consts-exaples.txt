@@ -1,0 +1,22 @@
+there is a constant folder with:
+- tags.js
+- types.ts
+
+----------
+
+const TAGS = {
+    HomeController: 'HomeController',
+    UserController: 'UserController'
+};
+
+export default TAGS;
+
+-----------
+const TYPES = {
+    MongoDBClient: Symbol.for('MongoDBClient'),
+    User: Symbol.for('User'),
+    UserService: Symbol.for('UserService'),
+};
+
+export default TYPES;
+
